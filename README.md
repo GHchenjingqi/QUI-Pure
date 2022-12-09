@@ -1,3 +1,8 @@
 # QUI-Pure
 WordPress极致简约图文免费开源主题
-### 开源主题演示站：https://course.51qux.com/
+### 陈小知博客站：http://v.51qux.com/
+### 开源主题演示站：http://v.51qux.com/
+
+### 环境配置
+1.WordPress5.0及以上版本，支持WP最新版6.1
+2.PHP建议7.4版本
