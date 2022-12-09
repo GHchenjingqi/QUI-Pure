@@ -160,7 +160,7 @@ function QUIAddPages() {
 	  global $pagenow;   
 	  //判断是否为激活主题页面   
 	  if ( 'themes.php' == $pagenow && isset( $_GET['activated'] ) ){   
-	    QUI_add_page('置顶页面','top','index_hot.php');
+	    QUI_add_page('热门页面','hot','index_hot.php');
 	    QUI_add_page('用户中心','user','user.php');
 	    QUI_add_page('友链申请','links','link.php');
 	   }
