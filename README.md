@@ -6,3 +6,6 @@ WordPress极致简约图文免费开源主题
 ### 环境配置
 - WordPress5.0及以上版本，支持WP最新版6.1
 - PHP建议7.4版本
+
+### 主题预览
+![QUI-Pure封面](https://github.com/GHchenjingqi/QUI-Pure/blob/main/screenshot.png)
