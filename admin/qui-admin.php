@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/admin/admin.css"/>
 <?php include(TEMPLATEPATH.'/admin/admin.php'); ?>
 <form action="" method="post" enctype="multipart/form-data">
-<div class="pavilion-container" id="app">
+<div class="pavilion-container" id="app" v-cloak>
 	<div class="layer-title">{{title}}</div>
 	<div class="pavilion-inner">
 		<ul class="tabs overflow-hide">

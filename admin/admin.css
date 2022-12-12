@@ -1,9 +1,5 @@
-html {
-        /*IE隐藏滚动条代码*/
-        -ms-overflow-style:none;
-        /*火狐隐藏滚动条*/
-        overflow:-moz-scrollbars-none;
-}
+html {  -ms-overflow-style:none;  overflow:-moz-scrollbars-none;}
+[v-cloak]{  display: none; }
 html::-webkit-scrollbar,.tab-content dd textarea::-webkit-scrollbar{ display:none;}
 .theme_set{ width:98%; }
 .theme_set h2{ font-size:20px; }
