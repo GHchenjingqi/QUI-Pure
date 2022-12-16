@@ -168,7 +168,6 @@ if( !empty( $_POST['theme_set'] ) ){
           update_option("boomSwitch",$_POST["boomSwitch"]);
           update_option("boomLink01",$_POST["boom_link_01"]); 
           update_option("bannerFlag",$_POST["bannerFlag"]);
-
 }
 $wx_img = get_option("wx_img");
 $qq_img = get_option("qq_img");
