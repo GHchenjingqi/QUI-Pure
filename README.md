@@ -7,6 +7,9 @@ WordPress极致简约图文免费开源主题
 - WordPress5.0及以上版本，支持WP最新版6.1
 - PHP建议7.4版本
 
+### 更新方式
+覆盖安装，覆盖原文件，直接上传将被当做新主题！！！
+
 ### 主题预览
 ![QUI-Pure封面](https://course.51qux.com/wp-content/uploads/2022/12/1.png)
 
