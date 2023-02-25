@@ -278,4 +278,18 @@ global $post;
 }
 
 
+function search_word_replace($buffer){
+    if(is_search()){
+        $arr = explode(" ", get_search_query());
+        $arr = array_unique($arr);
+        foreach($arr as $v)
+            if($v)
+                $buffer = preg_replace("/(".$v.")/i", "<em>$1</em>", $buffer);
+    }
+    return $buffer;
+}
+add_filter("the_title", "search_word_replace", 200);
+add_filter("the_excerpt", "search_word_replace", 200);
+add_filter("the_content", "search_word_replace", 200);
+
 ?>

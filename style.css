@@ -4,7 +4,7 @@ Theme URI: https://github.com/GHchenjingqi/QUI-Pure
 Author: 陈小知
 Author URI: https://course.51qux.com/
 Description: Qui-Pure是陈小知&&七娃博客开发的第一款主题，纯文本展示博客类型，不做过多的功能，由于技术学习来源互联网，WordPress是开源平台，因此主题免费回报大家，希望大家喜欢这款简约至上的主题
-Version: 2.8
+Version: 2.81
 Tested up to: 6.0
 Requires at least: 4.8
 Requires PHP: 5.4
@@ -300,6 +300,7 @@ body{background:#f5f5f5;color:#272727}
 .header-img{width:100%;height:120px}
 .header-img img{width:100%;height:100%;object-fit:cover}
 .content{width:1280px;margin:0 auto !important}
+.header .content {width: 94%;}
 .header{width:100%;height:80px;-webkit-box-shadow: 0 10px 20px 0 rgb(6 11 26 / 5%);  box-shadow: 0 10px 20px 0 rgb(6 11 26 / 5%);-webkit-backdrop-filter: saturate(180%) blur(6px); backdrop-filter: saturate(180%) blur(6px); background: rgba(255,255,255,.9); position:-webkit-sticky;position:sticky;z-index:99;left:0;top:0;}
 .shadow{box-shadow: 0px 10px 10px -4px rgb(11 19 58 / 1%) !important;}
 .logo-box{margin-top:15px;float:left}
@@ -829,6 +830,8 @@ nav.nav ul li:hover ul.sub-menu{display:block}
 .swiper-button-next, .swiper-button-prev{width:20px !important;height:28px !important;padding:8px 6px 8px 12px;background:rgba(255,255,255,.7);font-size:10px;background-size: 14px 26px !important;}
 .swiper-button-prev{border-radius:0 50px 50px 0;left:0 !important;}.swiper-button-next{border-radius:50px  0 0 50px;right:0 !important;}
 .swiper-pagination-bullet {width:16px !important;height:6px !important;opacity:1 !important;border-radius:6px !important;}
+.search-results .post-list ul li a{ justify-content:flex-start;}
+.search-results .post-list ul li a em{ color:var(--main-color);font-weight:400;padding:0 5px}
 @media screen and (max-width:768px){html,body{width:100%;height:auto;overflow-x:hidden;overflow-y:auto}
 .header-img{width:100%;height:10vw}
 .header{width:100%;height:15vw}
@@ -982,4 +985,18 @@ footer{padding-top:0 !important}
 .footer-logo img{margin:12px 0}
 .footer-img{display:none}
 .pagelink{padding:15px}
+}
+@media (prefers-color-scheme:dark){
+    html,img{filter:invert(1) hue-rotate(.5turn)}
+}
+@media only screen and (min-width: 1900px) {
+    .content{width:1380px;}
+}
+@media only screen and (min-width: 1400px) and (max-width: 1900px) {
+    .content{width:80vw;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .content{width:90%;}
+    .main{width:100%;}
+    .sidebar,.nav{display:none}
 }

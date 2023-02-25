@@ -387,6 +387,10 @@
                         </dd>
                 </dl><?php } ?>
                 <dl>
+                   <dt>文字公告：—— 简述通知的内容</dt>
+                      <dd><textarea name="noticeText"><?php echo get_option("noticeText"); ?></textarea></dd>
+                   </dl>
+                <dl>
                     <dt>文章广告代码：修改后请保存</dt>
                     <dd>
                         <textarea name="ad_single"><?php echo get_option("ad_single"); ?></textarea>

@@ -5,7 +5,9 @@
                  <?php if( get_option("bannerFlag") == 1 ){ //判断是否开启banner
                          get_template_part( 'tool/slider' );  
                   } ?>
-                 <!-- 幻灯片END --><!-- 置顶推荐 -->
+                 <!-- 幻灯片END -->
+                 <?php get_template_part( 'tool/notice' ); ?>
+                 <!-- 置顶推荐 -->
                   <?php 
                    get_template_part( 'tool/top' ); 
                   ?> 

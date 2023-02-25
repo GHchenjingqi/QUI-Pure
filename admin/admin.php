@@ -138,6 +138,7 @@ if( !empty( $_POST['theme_set'] ) ){
           update_option("gongan", $_POST["gongan"]);
           update_option("map",$_POST["map"]);
           update_option("keywords",$_POST["keywords"]);
+          update_option("noticeText",$_POST["noticeText"]);
           update_option("description",$_POST["description"]);
           update_option("phone_num",$_POST["phone_num"]);
           update_option("colors",$_POST["colors"]);
