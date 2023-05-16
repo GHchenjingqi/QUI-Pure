@@ -1,5 +1,13 @@
 <?php  
      /** Qui-Pure主题 总配置文件**/
+    /* 主题更新检测功能 */
+    require 'plugin-update-checker/plugin-update-checker.php';
+    use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+    $myUpdateChecker = PucFactory::buildUpdateChecker(
+        'https://course.51qux.com/theme.json',
+        __FILE__,
+        'unique-plugin-or-theme-slug'
+    );
     // 引入主题必备文件 
         include(TEMPLATEPATH.'/admin/function.php');
         $currentUser = wp_get_current_user();
