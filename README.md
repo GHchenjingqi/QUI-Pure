@@ -14,6 +14,10 @@ WordPress极致简约图文免费开源主题
 ![QUI-Pure封面](https://course.51qux.com/wp-content/uploads/2022/12/1.png)
 
 ### 更新日志
+V2.82    
+1.新增版本控制，在线升级功能；    
+2.优化已知异常错误，修复bug；   
+
 V2.81    
 1.PC端宽度自适应；    
 2.主题新增公告功能；    
