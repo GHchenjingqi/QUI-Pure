@@ -159,10 +159,11 @@ add_action('manage_posts_custom_column', 'views_column_content', 10, 2);
 function QUIAddPages() {   
 	  global $pagenow;   
 	  //判断是否为激活主题页面   
-	  if ( 'themes.php' == $pagenow && isset( $_GET['activated'] ) ){   
+	  if ( 'themes.php' == $pagenow || isset( $_GET['activated'] ) ){   
 	    QUI_add_page('热门页面','hot','index_hot.php');
 	    QUI_add_page('用户中心','user','user.php');
 	    QUI_add_page('友链申请','links','link.php');
+	    QUI_add_page('留言板','feed','feed.php');
 	   }
 }   
 add_action( 'load-themes.php', 'QUIAddPages' );  
